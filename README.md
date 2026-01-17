@@ -1,4 +1,15 @@
 # PhiArchive
+![PyPI](https://img.shields.io/pypi/v/phiarchive)
+![PyPI - Downloads](https://img.shields.io/pypi/dm/phiarchive)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/phiarchive)
+
+Phigros 云端存档和本地存档处理工具
+
+## 安装
+
+```bash
+pip install phiarchive
+```
 PhiArchive(原TxGetScore-V2)将Phigros的查分逻辑变成了一个可调用的API，而不是一个网页应用
 ```python
 PhiArchive 类使用说明
@@ -195,4 +206,5 @@ with open('cloud_backup.json', 'w', encoding='utf-8') as f:
 # 加载云存档数据
 with open('cloud_backup.json', 'r', encoding='utf-8') as f:
     cloud_data = json.load(f)
+
 ```
